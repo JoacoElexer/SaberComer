@@ -1,0 +1,53 @@
+/* --- Fonts config --- */
+@font-face { font-family: 'Humanst521-BT'; src: url('../Assets/tipografias/Humanst521_BT.ttf') format('truetype'); }
+@font-face { font-family: 'Humanst521-BT-cursive'; src: url('../Assets/tipografias/Humanst521_BT_cursive.ttf') format('truetype'); }
+@font-face { font-family: 'Humanst521-BT-Bold'; src: url('../Assets/tipografias/Humanst521_BT_Bold.ttf') format('truetype'); }
+@font-face { font-family: 'Humanst521-BT-Bold-cursive'; src: url('../Assets/tipografias/Humanst521_BT_Bold_cursive.ttf') format('truetype'); }
+@font-face { font-family: 'Humanst521-Lt-BT'; src: url('../Assets/tipografias/Humanst521_Lt_BT.ttf') format('truetype'); }
+@font-face { font-family: 'Humanst521-Lt-BT-cursive'; src: url('../Assets/tipografias/Humanst521_Lt_BT_cursive.ttf') format('truetype'); }
+@font-face { font-family: 'Humnst777-BT'; src: url('../Assets/tipografias/Humnst777_BT.ttf') format('truetype'); }
+@font-face { font-family: 'Humnst777-Lt-BT'; src: url('../Assets/tipografias/Humnst777_Lt_BT.ttf') format('truetype'); }
+@font-face { font-family: 'Humnst777-Cn-BT'; src: url('../Assets/tipografias/Humnst777_Cn_BT.ttf') format('truetype'); }
+@font-face { font-family: 'Humnst777-Cn-BT-Bold'; src: url('../Assets/tipografias/Humnst777_Cn_BT_Bold.ttf') format('truetype'); }
+@font-face { font-family: 'Humnst777-Blk-BT'; src: url('../Assets/tipografias/Humnst777_Blk_BT.ttf') format('truetype'); }
+@font-face { font-family: 'Humnst777-BlkCn-BT'; src: url('../Assets/tipografias/Humnst777_BlkCn_BT.ttf') format('truetype'); }
+/* --- Fonts config --- */
+
+
+/* --- Header Styles --- */
+#navbar {
+    background-color: #FFFFFF !important;
+    font-family: 'Humanst521-Lt-BT' !important;
+    font-size: 32px;
+    width: 1440;
+    height: 125;
+}
+
+.saberComerLogoColor {
+    width: 143px; /* Cambiar y usar porcentajes para hacerlo responsivo */
+    height: 117px;
+}
+
+#whatsappButton img {
+    width: 40px;
+    height: 40px;
+}
+
+#citaButton p {
+    font-family: 'Humanst521-Lt-BT' !important;
+    font-size: 32px;
+}
+
+#citaButton img {
+    width: 30px;
+    height: 30px;
+}
+
+/* --- Header Styles --- */
+
+
+/* --- Footer Styles --- */
+
+footer {
+    background-color: #2B2B2A;
+}
