@@ -1,16 +1,64 @@
 /* --- Fonts config --- */
-@font-face { font-family: 'Humanst521-BT'; src: url('../Assets/tipografias/Humanst521_BT.ttf') format('truetype'); }
-@font-face { font-family: 'Humanst521-BT-cursive'; src: url('../Assets/tipografias/Humanst521_BT_cursive.ttf') format('truetype'); }
-@font-face { font-family: 'Humanst521-BT-Bold'; src: url('../Assets/tipografias/Humanst521_BT_Bold.ttf') format('truetype'); }
-@font-face { font-family: 'Humanst521-BT-Bold-cursive'; src: url('../Assets/tipografias/Humanst521_BT_Bold_cursive.ttf') format('truetype'); }
-@font-face { font-family: 'Humanst521-Lt-BT'; src: url('../Assets/tipografias/Humanst521_Lt_BT.ttf') format('truetype'); }
-@font-face { font-family: 'Humanst521-Lt-BT-cursive'; src: url('../Assets/tipografias/Humanst521_Lt_BT_cursive.ttf') format('truetype'); }
-@font-face { font-family: 'Humnst777-BT'; src: url('../Assets/tipografias/Humnst777_BT.ttf') format('truetype'); }
-@font-face { font-family: 'Humnst777-Lt-BT'; src: url('../Assets/tipografias/Humnst777_Lt_BT.ttf') format('truetype'); }
-@font-face { font-family: 'Humnst777-Cn-BT'; src: url('../Assets/tipografias/Humnst777_Cn_BT.ttf') format('truetype'); }
-@font-face { font-family: 'Humnst777-Cn-BT-Bold'; src: url('../Assets/tipografias/Humnst777_Cn_BT_Bold.ttf') format('truetype'); }
-@font-face { font-family: 'Humnst777-Blk-BT'; src: url('../Assets/tipografias/Humnst777_Blk_BT.ttf') format('truetype'); }
-@font-face { font-family: 'Humnst777-BlkCn-BT'; src: url('../Assets/tipografias/Humnst777_BlkCn_BT.ttf') format('truetype'); }
+@font-face {
+    font-family: 'Humanst521-BT';
+    src: url('../Assets/tipografias/Humanst521_BT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humanst521-BT-cursive';
+    src: url('../Assets/tipografias/Humanst521_BT_cursive.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humanst521-BT-Bold';
+    src: url('../Assets/tipografias/Humanst521_BT_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humanst521-BT-Bold-cursive';
+    src: url('../Assets/tipografias/Humanst521_BT_Bold_cursive.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humanst521-Lt-BT';
+    src: url('../Assets/tipografias/Humanst521_Lt_BT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humanst521-Lt-BT-cursive';
+    src: url('../Assets/tipografias/Humanst521_Lt_BT_cursive.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humnst777-BT';
+    src: url('../Assets/tipografias/Humnst777_BT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humnst777-Lt-BT';
+    src: url('../Assets/tipografias/Humnst777_Lt_BT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humnst777-Cn-BT';
+    src: url('../Assets/tipografias/Humnst777_Cn_BT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humnst777-Cn-BT-Bold';
+    src: url('../Assets/tipografias/Humnst777_Cn_BT_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humnst777-Blk-BT';
+    src: url('../Assets/tipografias/Humnst777_Blk_BT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humnst777-BlkCn-BT';
+    src: url('../Assets/tipografias/Humnst777_BlkCn_BT.ttf') format('truetype');
+}
+
 /* --- Fonts config --- */
 
 
@@ -23,8 +71,13 @@
     height: 125;
 }
 
+.nav-item {
+    font-size: 100%;
+}
+
 .saberComerLogoColor {
-    width: 143px; /* Cambiar y usar porcentajes para hacerlo responsivo */
+    width: 143px;
+    /* Cambiar y usar porcentajes para hacerlo responsivo */
     height: 117px;
 }
 
@@ -50,4 +103,19 @@
 
 footer {
     background-color: #2B2B2A;
+    margin-bottom: 0;
+    padding: 0;
+    width: 1440;
+    height: 150;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2B2B2A;
+    color: white;
+}
+
+.footerLogo {
+    width: 168px;
+    height: 135px;
 }
