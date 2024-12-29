@@ -1,4 +1,102 @@
-body {
-    background-color: #F5F5F5 !important;
+/* --- Fonts config --- */
+@font-face {
+    font-family: 'Humanst521-BT';
+    src: url('../Assets/tipografias/Humanst521_BT.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Humanst521-BT-cursive';
+    src: url('../Assets/tipografias/Humanst521_BT_cursive.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humanst521-BT-Bold';
+    src: url('../Assets/tipografias/Humanst521_BT_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humanst521-BT-Bold-cursive';
+    src: url('../Assets/tipografias/Humanst521_BT_Bold_cursive.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humanst521-Lt-BT';
+    src: url('../Assets/tipografias/Humanst521_Lt_BT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humanst521-Lt-BT-cursive';
+    src: url('../Assets/tipografias/Humanst521_Lt_BT_cursive.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humnst777-BT';
+    src: url('../Assets/tipografias/Humnst777_BT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humnst777-Lt-BT';
+    src: url('../Assets/tipografias/Humnst777_Lt_BT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humnst777-Cn-BT';
+    src: url('../Assets/tipografias/Humnst777_Cn_BT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humnst777-Cn-BT-Bold';
+    src: url('../Assets/tipografias/Humnst777_Cn_BT_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humnst777-Blk-BT';
+    src: url('../Assets/tipografias/Humnst777_Blk_BT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Humnst777-BlkCn-BT';
+    src: url('../Assets/tipografias/Humnst777_BlkCn_BT.ttf') format('truetype');
+}
+
+/* --- Fonts config --- */
+
+body {
+    background-color: #F5F5F5 !important;
+    font-size: 32px;
+    font-family: 'Humanst521-Lt-BT';
+}
+
+#mainName {
+    display: flex;
+    justify-content: center;
+}
+
+#mainName img {
+    width: 50%;
+    height: auto;
+}
+
+#aboutContainer {
+    margin-inline: 10%;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+}
+
+#aboutImg img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#aboutContent h2 {
+    font-family: 'Humanst521-BT';
+    font-size: 3vw !important;
+}
+
+#aboutContent p {
+    font-family: 'Humanst521-Lt-BT';
+    font-size: 1.3vw !important;
+}
