@@ -1,153 +1,136 @@
 /* --- Fonts config --- */
-@font-face {
-    font-family: 'Humanst521-BT';
-    src: url('../Assets/tipografias/Humanst521_BT.ttf') format('truetype');
+@font-face { font-family: 'Humanst521-BT'; src: url('../Assets/tipografias/Humanst521_BT.ttf') format('truetype'); }
+@font-face { font-family: 'Humanst521-BT-cursive'; src: url('../Assets/tipografias/Humanst521_BT_cursive.ttf') format('truetype'); }
+@font-face { font-family: 'Humanst521-BT-Bold'; src: url('../Assets/tipografias/Humanst521_BT_Bold.ttf') format('truetype'); }
+@font-face { font-family: 'Humanst521-BT-Bold-cursive'; src: url('../Assets/tipografias/Humanst521_BT_Bold_cursive.ttf') format('truetype'); }
+@font-face { font-family: 'Humanst521-Lt-BT'; src: url('../Assets/tipografias/Humanst521_Lt_BT.ttf') format('truetype'); }
+@font-face { font-family: 'Humanst521-Lt-BT-cursive'; src: url('../Assets/tipografias/Humanst521_Lt_BT_cursive.ttf') format('truetype'); }
+@font-face { font-family: 'Humnst777-BT'; src: url('../Assets/tipografias/Humnst777_BT.ttf') format('truetype'); }
+@font-face { font-family: 'Humnst777-Lt-BT'; src: url('../Assets/tipografias/Humnst777_Lt_BT.ttf') format('truetype'); }
+@font-face { font-family: 'Humnst777-Cn-BT'; src: url('../Assets/tipografias/Humnst777_Cn_BT.ttf') format('truetype'); }
+@font-face { font-family: 'Humnst777-Cn-BT-Bold'; src: url('../Assets/tipografias/Humnst777_Cn_BT_Bold.ttf') format('truetype'); }
+@font-face { font-family: 'Humnst777-Blk-BT'; src: url('../Assets/tipografias/Humnst777_Blk_BT.ttf') format('truetype'); }
+@font-face { font-family: 'Humnst777-BlkCn-BT'; src: url('../Assets/tipografias/Humnst777_BlkCn_BT.ttf') format('truetype'); }
+
+@media (min-width: 1200px) {
+
+    /* --- Fonts config --- */
+
+    body {
+        background-color: red;
+        font-size: 32px;
+        font-family: 'Humanst521-BT';
+    }
+
+    #mainName {
+        display: flex;
+        justify-content: center;
+    }
+
+    #mainName img {
+        width: 50%;
+        height: auto;
+    }
+
+    /* --- About --- */
+    #aboutContainer {
+        margin-inline: 10%;
+        margin-top: 1%;
+        margin-bottom: 4%;
+        display: grid;
+        grid-template-columns: 48% 48%;
+        justify-content: space-between;
+    }
+
+    #aboutImg img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    #aboutContent h2 {
+        font-family: 'Humanst521-BT';
+        font-size: 3vw !important;
+    }
+
+    #aboutContent p {
+        font-family: 'Humanst521-Lt-BT';
+        font-size: 1.3vw !important;
+    }
+
+    /* --- About --- */
+
+
+    /* --- Location --- */
+    #locationContainer {
+        margin-inline: 10%;
+        margin-top: 8%;
+        margin-bottom: 4%;
+        display: grid;
+        grid-template-columns: 48% 48%;
+        justify-content: space-between;
+    }
+
+    #locationContent h2 {
+        font-family: 'Humanst521-BT';
+        font-size: 3vw !important;
+    }
+
+    #locationContent h3 {
+        font-family: 'Humanst521-BT';
+        font-size: 2vw !important;
+    }
+
+    #locationContent p {
+        font-family: 'Humanst521-Lt-BT';
+        font-size: 1.3vw !important;
+    }
+
+    #locationMap iframe {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    /* --- Location --- */
+
+
+    /* --- Services --- */
+    #servicesContainer {
+        margin-inline: 10%;
+        margin-top: 8%;
+        margin-bottom: 4%;
+        justify-content: space-between;
+    }
+
+    .c-item {
+        height: 30rem;
+    }
+
+    .c-img {
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(50%);
+    }
+
+    /* --- Services --- */
+
 }
 
-@font-face {
-    font-family: 'Humanst521-BT-cursive';
-    src: url('../Assets/tipografias/Humanst521_BT_cursive.ttf') format('truetype');
+@media (min-width: 992px) and (max-width: 1199px) {
+    #aboutContainer {
+        background-color: red;
+    }
 }
 
-@font-face {
-    font-family: 'Humanst521-BT-Bold';
-    src: url('../Assets/tipografias/Humanst521_BT_Bold.ttf') format('truetype');
+@media (min-width: 768px) and (max-width: 991px) {
+    #aboutContainer {
+        background-color: yellow;
+    }
 }
 
-@font-face {
-    font-family: 'Humanst521-BT-Bold-cursive';
-    src: url('../Assets/tipografias/Humanst521_BT_Bold_cursive.ttf') format('truetype');
+@media (max-width: 767px) {
+    #aboutContainer {
+        background-color: green;
+    }
 }
-
-@font-face {
-    font-family: 'Humanst521-Lt-BT';
-    src: url('../Assets/tipografias/Humanst521_Lt_BT.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Humanst521-Lt-BT-cursive';
-    src: url('../Assets/tipografias/Humanst521_Lt_BT_cursive.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Humnst777-BT';
-    src: url('../Assets/tipografias/Humnst777_BT.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Humnst777-Lt-BT';
-    src: url('../Assets/tipografias/Humnst777_Lt_BT.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Humnst777-Cn-BT';
-    src: url('../Assets/tipografias/Humnst777_Cn_BT.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Humnst777-Cn-BT-Bold';
-    src: url('../Assets/tipografias/Humnst777_Cn_BT_Bold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Humnst777-Blk-BT';
-    src: url('../Assets/tipografias/Humnst777_Blk_BT.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Humnst777-BlkCn-BT';
-    src: url('../Assets/tipografias/Humnst777_BlkCn_BT.ttf') format('truetype');
-}
-
-/* --- Fonts config --- */
-
-body {
-    background-color: #F5F5F5 !important;
-    font-size: 32px;
-    font-family: 'Humanst521-Lt-BT';
-}
-
-#mainName {
-    display: flex;
-    justify-content: center;
-}
-
-#mainName img {
-    width: 50%;
-    height: auto;
-}
-
-/* --- About --- */
-#aboutContainer {
-    margin-inline: 10%;
-    margin-top: 1%;
-    margin-bottom: 4%;
-    display: grid;
-    grid-template-columns: 48% 48%;
-    justify-content: space-between;
-}
-
-#aboutImg img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-#aboutContent h2 {
-    font-family: 'Humanst521-BT';
-    font-size: 3vw !important;
-}
-
-#aboutContent p {
-    font-family: 'Humanst521-Lt-BT';
-    font-size: 1.3vw !important;
-}
-/* --- About --- */
-
-
-/* --- Location --- */
-#locationContainer {
-    margin-inline: 10%;
-    margin-top: 8%;
-    margin-bottom: 4%;
-    display: grid;
-    grid-template-columns: 48% 48%;
-    justify-content: space-between;
-}
-
-#locationContent h2 {
-    font-family: 'Humanst521-BT';
-    font-size: 3vw !important;
-}
-
-#locationContent h3 {
-    font-family: 'Humanst521-BT';
-    font-size: 2vw !important;
-}
-
-#locationContent p {
-    font-family: 'Humanst521-Lt-BT';
-    font-size: 1.3vw !important;
-}
-
-#locationMap iframe {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-/* --- Location --- */
-
-
-/* --- Services --- */
-#servicesContainer {
-    margin-inline: 10%;
-    margin-top: 8%;
-    margin-bottom: 4%;
-}
-
-#carouselImg {
-    height: auto;
-    width: auto;
-}
-
-/* --- Services --- */
