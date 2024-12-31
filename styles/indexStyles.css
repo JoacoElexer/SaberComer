@@ -308,7 +308,131 @@
 }
 
 @media (max-width: 767px) { /* Mobile browsers */ /* Aqui ya se aplica menu hamburguesa */
-    #aboutContainer {
-        background-color: green;
+
+    
+    body {
+        background-color: #F5F5F5 !important;
+        font-size: 32px;
+        font-family: 'Humanst521-BT';
     }
+
+    #mainName {
+        display: flex;
+        justify-content: center;
+    }
+
+    #mainName img {
+        width: 70%;
+        height: auto;
+    }
+
+    /* --- About --- */
+    #aboutContainer {
+        margin-inline: 10%;
+        margin-top: 1%;
+        margin-bottom: 4%;
+        display: grid;
+        grid-template-rows: 48% 48%;
+    }
+
+    #aboutImg {
+        display: flex;
+        justify-content: center;
+    }
+
+    #aboutImg img {
+        width: 65%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    #aboutContent {
+        display: flexbox;
+        justify-content: center;
+    }
+
+    #aboutContent h2 {
+        font-family: 'Humanst521-BT';
+        font-size: 3rem !important;
+        text-align: center;
+        margin-block: 4%;
+    }
+
+    #aboutContent p {
+        font-family: 'Humanst521-Lt-BT';
+        font-size: 2.7vw !important;
+        text-align: justify;
+    }
+
+    /* --- About --- */
+
+
+    /* --- Location --- */
+    #locationContainer {
+        margin-inline: 10%;
+        margin-top: 1%;
+        margin-bottom: 4%;
+        display: grid;
+        grid-template-rows: 48% 48%;
+    }
+
+    #locationContent h2 {
+        font-family: 'Humanst521-BT';
+        font-size: 3rem !important;
+        text-align: center;
+    }
+
+    #locationContent h3 {
+        font-family: 'Humanst521-BT';
+        font-size: 2.3rem !important;
+        text-align: center;
+        margin-block: 3%;
+    }
+
+    #locationContent p {
+        font-family: 'Humanst521-Lt-BT';
+        font-size: 2.7vw !important;
+        text-align: justify;
+    }
+
+    #locationMap {
+        height: 100%;
+    }
+
+    #locationMap iframe {
+        width: 100%;
+        height: 80vw;
+        border-radius: 10px;
+    }
+
+    /* --- Location --- */
+
+
+    /* --- Services --- */
+    #servicesContainer {
+        margin-inline: 10%;
+        margin-top: 8%;
+        margin-bottom: 4%;
+        justify-content: space-between;
+    }
+
+    #servicesContainer h2 {
+        font-family: 'Humanst521-BT';
+        font-size: 3rem !important;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+
+    .c-item {
+        height: 30rem;
+    }
+
+    .c-img {
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(50%);
+    }
+
+    /* --- Services --- */
 }
