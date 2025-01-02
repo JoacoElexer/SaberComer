@@ -307,7 +307,7 @@
 
 }
 
-@media (max-width: 767px) { /* Mobile browsers */ /* Aqui ya se aplica menu hamburguesa */
+@media (max-width: 767px) { /* Mobile browsers */ /* Aqui se aplica menu hamburguesa */
 
     
     body {
@@ -322,17 +322,16 @@
     }
 
     #mainName img {
-        width: 70%;
+        width: 110%;
         height: auto;
     }
 
     /* --- About --- */
     #aboutContainer {
-        margin-inline: 10%;
-        margin-top: 1%;
-        margin-bottom: 4%;
-        display: grid;
-        grid-template-rows: 48% 48%;
+        margin-inline: 5%;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
     }
 
     #aboutImg {
@@ -341,7 +340,7 @@
     }
 
     #aboutImg img {
-        width: 65%;
+        width: 90%;
         height: auto;
         border-radius: 10px;
     }
@@ -353,14 +352,14 @@
 
     #aboutContent h2 {
         font-family: 'Humanst521-BT';
-        font-size: 3rem !important;
+        font-size: 2rem !important;
         text-align: center;
         margin-block: 4%;
     }
 
     #aboutContent p {
         font-family: 'Humanst521-Lt-BT';
-        font-size: 2.7vw !important;
+        font-size: 1rem;
         text-align: justify;
     }
 
@@ -369,29 +368,30 @@
 
     /* --- Location --- */
     #locationContainer {
-        margin-inline: 10%;
-        margin-top: 1%;
-        margin-bottom: 4%;
-        display: grid;
-        grid-template-rows: 48% 48%;
+        margin-inline: 5%;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
     }
 
     #locationContent h2 {
         font-family: 'Humanst521-BT';
-        font-size: 3rem !important;
+        font-size: 2rem !important;
         text-align: center;
+        margin-block: 4%;
     }
 
     #locationContent h3 {
         font-family: 'Humanst521-BT';
-        font-size: 2.3rem !important;
+        font-size: 2rem !important;
         text-align: center;
         margin-block: 3%;
     }
 
     #locationContent p {
         font-family: 'Humanst521-Lt-BT';
-        font-size: 2.7vw !important;
+        font-size: 1rem;
         text-align: justify;
     }
 
@@ -410,17 +410,17 @@
 
     /* --- Services --- */
     #servicesContainer {
-        margin-inline: 10%;
-        margin-top: 8%;
-        margin-bottom: 4%;
-        justify-content: space-between;
+        margin-inline: 5%;
+        gap: 5rem;
+        margin-bottom: 5%;
     }
 
     #servicesContainer h2 {
         font-family: 'Humanst521-BT';
-        font-size: 3rem !important;
+        font-size: 2.5rem;
         display: flex;
         justify-content: center;
+        margin-top: 10%;
         margin-bottom: 3%;
     }
 
@@ -431,7 +431,7 @@
     .c-img {
         height: 100%;
         object-fit: cover;
-        filter: brightness(50%);
+        filter: brightness(70%);
     }
 
     /* --- Services --- */
