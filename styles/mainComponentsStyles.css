@@ -61,108 +61,445 @@
 
 /* --- Fonts config --- */
 
-
-/* --- Header Styles --- */
-#navbar {
-    background-color: #FFFFFF !important;
-    font-family: 'Humanst521-Lt-BT';
-    font-size: 32px;
-    width: 1440;
-    height: 125;
+body {
+    background-color: #f5f5f5 !important;
 }
 
-nav a {
-    font-size: 100% !important;
-    color: red;
+@media (min-width: 1200px) {  /* Desktop Browsers */
+
+    /* --- Header Styles --- */
+    #navbar {
+        background-color: #FFFFFF !important;
+        font-family: 'Humanst521-Lt-BT';
+        font-size: 32px;
+        width: 1440;
+        height: 125;
+    }
+
+    nav a {
+        font-size: 100% !important;
+        color: red;
+    }
+
+    .saberComerLogoColor {
+        width: 143px;
+        /* Cambiar y usar porcentajes para hacerlo responsivo */
+        height: 117px;
+    }
+
+    #whatsappButton img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #citaButtonContent p {
+        font-family: 'Humanst521-Lt-BT' !important;
+        font-size: 200% !important;
+    }
+
+    #citaButton img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* --- Header Styles --- */
+
+
+    /* --- Footer Styles --- */
+
+    footer {
+        background-color: #2B2B2A;
+        margin-bottom: 0;
+        padding: 0;
+        width: 1440;
+        height: 150;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        background-color: #2B2B2A;
+        color: white;
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    #footerLogoContainer {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #footerInfo {
+        width: 55%;
+    }
+
+    #saberComerInfo h1 {
+        color: #FFFFFF;
+        font-family: 'Humnst777-BlkCn-BT' !important;
+    }
+
+    #saberComerInfo h2 {
+        color: #FFFFFF;
+        font-family: 'Humanst521-BT' !important;
+    }
+
+    #saberComerInfo p {
+        color: #FFFFFF;
+        font-family: 'Humnst777-Lt-BT' !important;
+        font-size: 70%;
+    }
+
+    #socialMedia {
+        align-items: center;
+        justify-content: right;
+
+        display: grid !important;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    #socialMedia a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    #socialMedia p {
+        font-family: "Humnst777-BT";
+        font-size: 20px;
+    }
+
+    #socialIcons {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: row;
+    }
+
+    .footerLogo {
+        width: 168px;
+        height: 135px;
+    }
 }
 
-.saberComerLogoColor {
-    width: 143px;
-    /* Cambiar y usar porcentajes para hacerlo responsivo */
-    height: 117px;
+@media (min-width: 992px) and (max-width: 1199px) {  /* Desktop Browsers */
+
+    /* --- Header Styles --- */
+    #navbar {
+        background-color: #FFFFFF !important;
+        font-family: 'Humanst521-Lt-BT';
+        font-size: 32px;
+        width: 1440;
+        height: 125;
+    }
+
+    nav a {
+        font-size: 100% !important;
+        color: red;
+    }
+
+    .saberComerLogoColor {
+        width: 143px;
+        /* Cambiar y usar porcentajes para hacerlo responsivo */
+        height: 117px;
+    }
+
+    #whatsappButton img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #citaButtonContent p {
+        font-family: 'Humanst521-Lt-BT' !important;
+        font-size: 200% !important;
+    }
+
+    #citaButton img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* --- Header Styles --- */
+
+
+    /* --- Footer Styles --- */
+
+    footer {
+        background-color: #2B2B2A;
+        margin-bottom: 0;
+        padding: 0;
+        width: 1440;
+        height: 150;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        background-color: #2B2B2A;
+        color: white;
+    }
+
+    #saberComerInfo h1 {
+        color: #FFFFFF;
+        font-family: 'Humnst777-BlkCn-BT' !important;
+    }
+
+    #saberComerInfo h2 {
+        color: #FFFFFF;
+        font-family: 'Humanst521-BT' !important;
+    }
+
+    #saberComerInfo p {
+        color: #FFFFFF;
+        font-family: 'Humnst777-Lt-BT' !important;
+        font-size: 70%;
+    }
+
+    #socialMedia {
+        align-items: center;
+        justify-content: right;
+
+        display: grid !important;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    #socialMedia a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    #socialMedia p {
+        font-family: "Humnst777-BT";
+        font-size: 20px;
+    }
+
+    #socialIcons {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: row;
+    }
+
+    .footerLogo {
+        width: 168px;
+        height: 135px;
+    }
+
+    .bi {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
-#whatsappButton img {
-    width: 40px;
-    height: 40px;
+@media (min-width: 768px) and (max-width: 991px) {  /* Desktop Browsers */
+
+    /* --- Header Styles --- */
+    #navbar {
+        background-color: #FFFFFF !important;
+        font-family: 'Humanst521-Lt-BT';
+        font-size: 32px;
+        width: 1440;
+        height: 125;
+    }
+
+    nav a {
+        font-size: 100% !important;
+        color: red;
+    }
+
+    .saberComerLogoColor {
+        width: 143px;
+        /* Cambiar y usar porcentajes para hacerlo responsivo */
+        height: 117px;
+    }
+
+    #whatsappButton img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #citaButtonContent p {
+        font-family: 'Humanst521-Lt-BT' !important;
+        font-size: 200% !important;
+    }
+
+    #citaButton img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* --- Header Styles --- */
+
+
+    /* --- Footer Styles --- */
+
+    footer {
+        background-color: #2B2B2A;
+        margin-bottom: 0;
+        padding: 0;
+        width: 1440;
+        height: 150;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        background-color: #2B2B2A;
+        color: white;
+    }
+
+    #saberComerInfo h1 {
+        color: #FFFFFF;
+        font-family: 'Humnst777-BlkCn-BT' !important;
+    }
+
+    #saberComerInfo h2 {
+        color: #FFFFFF;
+        font-family: 'Humanst521-BT' !important;
+    }
+
+    #saberComerInfo p {
+        color: #FFFFFF;
+        font-family: 'Humnst777-Lt-BT' !important;
+        font-size: 70%;
+    }
+
+    #socialMedia {
+        align-items: center;
+        justify-content: right;
+
+        display: grid !important;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    #socialMedia a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    #socialMedia p {
+        font-family: "Humnst777-BT";
+        font-size: 20px;
+    }
+
+    #socialIcons {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: row;
+    }
+
+    .footerLogo {
+        width: 168px;
+        height: 135px;
+    }
+
+    .bi {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
-#citaButtonContent p {
-    font-family: 'Humanst521-Lt-BT' !important;
-    font-size: 200% !important;
-}
+@media (max-width: 767px) {  /* Desktop Browsers */
 
-#citaButton img {
-    width: 30px;
-    height: 30px;
-}
+    /* --- Header Styles --- */
+    #navbar {
+        background-color: #FFFFFF !important;
+        font-family: 'Humanst521-Lt-BT';
+        font-size: 32px;
+        width: 1440;
+        height: 125;
+    }
 
-/* --- Header Styles --- */
+    nav a {
+        font-size: 100% !important;
+        color: red;
+    }
+
+    .saberComerLogoColor {
+        width: 143px;
+        /* Cambiar y usar porcentajes para hacerlo responsivo */
+        height: 117px;
+    }
+
+    #whatsappButton img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #citaButtonContent p {
+        font-family: 'Humanst521-Lt-BT' !important;
+        font-size: 200% !important;
+    }
+
+    #citaButton img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* --- Header Styles --- */
 
 
-/* --- Footer Styles --- */
+    /* --- Footer Styles --- */
 
-footer {
-    background-color: #2B2B2A;
-    margin-bottom: 0;
-    padding: 0;
-    width: 1440;
-    height: 150;
-    left: 0;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-    background-color: #2B2B2A;
-    color: white;
-}
+    footer {
+        background-color: #2B2B2A;
+        margin-bottom: 0;
+        padding: 0;
+        width: 1440;
+        height: 150;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        background-color: #2B2B2A;
+        color: white;
+    }
 
-#saberComerInfo h1 {
-    color: #FFFFFF;
-    font-family: 'Humnst777-BlkCn-BT' !important;
-}
+    #saberComerInfo h1 {
+        color: #FFFFFF;
+        font-family: 'Humnst777-BlkCn-BT' !important;
+    }
 
-#saberComerInfo h2 {
-    color: #FFFFFF;
-    font-family: 'Humanst521-BT' !important;
-}
+    #saberComerInfo h2 {
+        color: #FFFFFF;
+        font-family: 'Humanst521-BT' !important;
+    }
 
-#saberComerInfo p {
-    color: #FFFFFF;
-    font-family: 'Humnst777-Lt-BT' !important;
-    font-size: 70%;
-}
+    #saberComerInfo p {
+        color: #FFFFFF;
+        font-family: 'Humnst777-Lt-BT' !important;
+        font-size: 70%;
+    }
 
-#socialMedia {
-    align-items: center;
-    justify-content: right;
+    #socialMedia {
+        align-items: center;
+        justify-content: right;
 
-    display: grid !important;
-    grid-template-rows: 33% 33% 33%;
-}
+        display: grid !important;
+        grid-template-rows: 33% 33% 33%;
+    }
 
-#socialMedia a {
-    text-decoration: none;
-    color: #FFFFFF;
-}
+    #socialMedia a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
 
-#socialMedia p {
-    font-family: "Humnst777-BT";
-    font-size: 20px;
-}
+    #socialMedia p {
+        font-family: "Humnst777-BT";
+        font-size: 20px;
+    }
 
-#socialIcons {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    flex-direction: row;
-}
+    #socialIcons {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: row;
+    }
 
-.footerLogo {
-    width: 168px;
-    height: 135px;
-}
+    .footerLogo {
+        width: 168px;
+        height: 135px;
+    }
 
-.bi {
-    display: flex;
-    justify-content: space-around;
+    .bi {
+        display: flex;
+        justify-content: space-around;
+    }
 }

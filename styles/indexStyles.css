@@ -172,7 +172,7 @@
 
 }
 
-@media (min-width: 992px) and (max-width: 1199px) { /* Laptop and similar devices browsers */
+@media (min-width: 992px) and (max-width: 1199px) { /* Laptop and similar devices browsers ! - Incompleto - !*/
     #aboutContainer {
         background-color: red;
     }
