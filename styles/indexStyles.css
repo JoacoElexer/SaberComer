@@ -60,6 +60,17 @@
 }
 /* --- Fonts config --- */
 
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
 @media (min-width: 1200px) { /* Desktop Browsers */
 
 
