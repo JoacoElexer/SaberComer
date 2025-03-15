@@ -194,7 +194,7 @@ main {
 }
 
 
-@media (min-width: 992px) and (max-width: 1199px) { /* Laptop and similar devices browsers ! - Incompleto - ! */
+@media (min-width: 992px) and (max-width: 1199px) { /* Laptop and similar devices browsers */
  
     body {
         background-color: #F5F5F5 !important;
@@ -323,7 +323,8 @@ main {
     /* --- Services --- */
 }
 
-@media (min-width: 768px) and (max-width: 991px) {  /* Tablet browsers and similars */ /* Aqui ya se aplica menu hamburguesa */
+
+@media (min-width: 768px) and (max-width: 991px) {  /* Tablet browsers and similars */
 
     
     body {
@@ -453,7 +454,7 @@ main {
     /* --- Services --- */
 }
 
-@media (max-width: 767px) { /* Mobile browsers */ /* Aqui se aplica menu hamburguesa */
+@media (max-width: 767px) { /* Mobile browsers */
 
     
     body {
